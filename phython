@@ -1,0 +1,14 @@
+# Simple Python Example: Greeting and List Iteration
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+
+# List comprehension
+fruits = ['Apple', 'Banana', 'Lime']
+loud_fruits = [fruit.upper() for fruit in fruits]
+print("Fruits:", loud_fruits)
+
+# Function Definition
+def greet(user):
+    return f"Welcome, {user}"
+
+print(greet(name))
